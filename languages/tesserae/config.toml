@@ -1,0 +1,8 @@
+name = "Tesserae"
+grammar = "tesserae"
+path_suffixes = ["tess"]
+line_comments = ["// "]
+brackets = [
+  { start = "[", end = "]", close = true, newline = false },
+  { start = "\"", end = "\"", close = true, newline = false, not_in = ["string"] },
+]

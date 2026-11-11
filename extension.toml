@@ -1,0 +1,11 @@
+id = "tesserae"
+name = "Tesserae"
+version = "0.1.0"
+schema_version = 1
+authors = ["Ypuf"]
+description = "Tesserae config file support"
+repository = "https://github.com/Ypuf/tesserae-zed"
+
+[grammars.tesserae]
+repository = "https://github.com/Ypuf/tree-sitter-tesserae"
+rev = "c0023e6c1f3da719ee5387d31e73f5e510fff290"
